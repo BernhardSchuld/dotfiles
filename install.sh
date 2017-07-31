@@ -58,39 +58,6 @@ git submodule foreach git pull origin master
 
 
 ################################################################################
-# VIM
-################################################################################
-
-# Autoload.
-echo "Getting latest autoload script."
-
-AUTOLOAD_URL=https://raw.githubusercontent.com/tpope/vim-pathogen/master/autoload/pathogen.vim
-AUTOLOAD_PATH=vim/vim.symlink/autoload/pathogen.vim
-
-mkdir -p vim/vim.symlink/autoload
-curl -fsSL ${AUTOLOAD_URL} > ${AUTOLOAD_PATH}
-
-# Preparing temporary directories.
-echo "Preparing vim temporary directories."
-
-echo " - Recreating ~/.tmp"
-rm -rf ~/.tmp
-mkdir -p ~/.tmp
-
-echo " - Recreating ~/.tmp/bak"
-rm -rf ~/.tmp/bak
-mkdir -p ~/.tmp/bak
-
-echo " - Recreating ~/.tmp/swp"
-rm -rf ~/.tmp/swp
-mkdir -p ~/.tmp/swp
-
-echo " - Recreating ~/.tmp/undo"
-rm -rf ~/.tmp/undo
-mkdir -p ~/.tmp/undo
-
-
-################################################################################
 # ZSH
 ################################################################################
 
