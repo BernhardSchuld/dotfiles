@@ -10,9 +10,6 @@
 *.tmp
 *.bkp
 
-# Mac DS_Store
-*.DS_Store
-
 # Atom
 atom/atom.symlink/.apm
 atom/atom.symlink/.node-gyp
@@ -20,8 +17,3 @@ atom/atom.symlink/blob-store
 atom/atom.symlink/compile-cache
 atom/atom.symlink/packages
 atom/atom.symlink/storage
-
-# Do not keep VIM artifacts.
-tmp/tmp.symlink/bak/*
-tmp/tmp.symlink/undo/*
-tmp/tmp.symlink/swp/*

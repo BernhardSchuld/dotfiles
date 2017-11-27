@@ -1,7 +1,6 @@
 [user]
-	name = Arné Schreuder
-    email = arne@compiax.io
-    email = arneschreuder@icloud.com
+	name = BernhardSchuld
+    email = bernhardschuld@gmail.com
 [color]
     diff = auto
     status = auto
@@ -10,7 +9,7 @@
     ui = true
 [core]
     excludesfile = ~/.gitignore
-    editor = "vim"
+    editor = "nano"
 [help]
     autocorrect = 1
 [push]
