@@ -1,5 +1,4 @@
 # Git aliases
-alias gl="git log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative" 
 alias gpull="git pull --prune"
 alias gpush="git push"
 alias gf="git fetch --prune"
@@ -10,4 +9,3 @@ alias gc="git commit -as"
 alias gac="ga && gc"
 alias gb="git branch -a"
 alias grpo="git remote prune origin"
-
