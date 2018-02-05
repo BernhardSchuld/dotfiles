@@ -2,7 +2,7 @@
   core:
     telemetryConsent: "limited"
   editor:
-    fontSize: 11
+    fontSize: 9
   "exception-reporting":
     userId: "c97a39f5-ed56-4da7-8922-e486ba21fdd2"
   "tree-view":
