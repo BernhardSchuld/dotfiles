@@ -45,19 +45,6 @@ done
 
 
 ################################################################################
-# SUBMODULES
-################################################################################
-
-echo "Initialising submodules."
-git submodule init
-git submodule update
-
-echo "Updating and checking out submodules."
-git submodule foreach git checkout master
-git submodule foreach git pull origin master
-
-
-################################################################################
 # ZSH
 ################################################################################
 
