@@ -1,0 +1,40 @@
+# Brew taps and settings.
+tap "caskroom/cask"
+tap "homebrew/services"
+cask_args appdir: '/Applications'
+
+# Brew casks.
+cask "bibdesk"
+cask "dbeaver-enterprise"
+cask "dropbox"
+cask "filezilla"
+cask "firefox"
+cask "flash-player"
+cask "google-chrome"
+cask "keka"
+cask "libreoffice"
+cask "mysqlworkbench"
+cask "opera"
+cask "postman"
+cask "slack"
+cask "staruml"
+cask "texmaker"
+cask "vlc"
+cask "virtualbox"
+
+# Terminal tools.
+brew "gource"
+brew "openssl"
+brew "wget"
+
+# Development environment.
+brew "bash"
+brew "zsh"
+
+# Development tools.
+brew "docker"
+brew "git"
+brew "mysql"
+brew "node" # Need to run installer first.
+brew "pv"
+brew "python3"
